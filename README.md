@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./develop/public/assets/images/webpage.png" alt="Webpage screenshot">
+<img src="./Develop/public/assets/images/webpage.png" alt="Webpage screenshot">
 
 For this application, I had to finsh the provided files to create a note taker webpage. The user will be able to make notes and save them while also going back to them! Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and quite the challenge!
 
