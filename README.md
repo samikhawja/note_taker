@@ -45,16 +45,19 @@ Go to the deployed link below in <a href="#project-link">Project Link</a> tab.
 <!-- USAGE EXAMPLES -->
 ## Code Snippets
 
-Below is the function I used to generate a readme markdown file. The code snippets starts with the prompt from inquirer and the response from that will console.log the report and then create a markdown called "README.md". The next part is the 'generateMarkdown' where it is a template literal for creating the template for the README.
+Below is a function is used in order for the webpage to read what I have in my db.json file. It will display on the webpage when you click on a previous note and allow you to write to the file and override the previous note.
 ```
-function init() {
-    inquirer
-    .prompt(questions)
-    .then((response) => {
-        console.log(response)
-        writeToFile("README.md", generateMarkdown(response));
-    });
-}
+const readAndAppend = (content, file) => {
+  fs.readFile(file, 'utf8', (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      const parsedData = JSON.parse(data);
+      parsedData.push(content);
+      writeToFile(file, parsedData);
+    }
+  });
+};
 ```
 
 
@@ -72,6 +75,8 @@ Sami Khawja: Skhawja11@gmail.com
 
 ## Project Links
 Project Link: [GitHub](https://github.com/samikhawja/note_taker)
+
+Live Link: [Heroku](https://stark-hamlet-02477.herokuapp.com)
 
 
 
