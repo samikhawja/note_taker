@@ -13,7 +13,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
     </li>
-    <li><a href="#code-snippet">Code-Snippet</a></li>
+    <li><a href="#code-snippet">Code Snippet</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -25,9 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./assets/images/webpage.png" alt="Terminal with propmts">
+<img src="./develop/public/assets/images/webpage.png" alt="Webpage screenshot">
 
-For this application, I had to finsh the provided files to create a README generator. The user will be prompted questions in their terminal and from there, a README markdown will be generated. Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and look to implementing an html to the application!
+For this application, I had to finsh the provided files to create a note taker webpage. The user will be able to make notes and save them while also going back to them! Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and quite the challenge!
 
 The websites I used to help create the application are listed below in the <a href="#acknowledgements">acknowledgements</a>.
 
@@ -39,19 +39,7 @@ I used <a href="https://code.visualstudio.com/">Visual Studio Code</a> to finish
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get started with this application, you need to open the file in VS Code or something similar. From then, open your terminal, either in VS Code or on your computer and navigate to the README generator file. From then, use the command:
-```
-cd Develop
-```
-then, the following
-```
-npm i
-```
-then, the following
-```
-node server.js
-```
-After that, go through the prompts and once the last question is completed, a README will generate in the Develop folder called, "README.md"
+Go to the deployed link below in <a href="#project-link">Project Link</a> tab.
 
 
 <!-- USAGE EXAMPLES -->
