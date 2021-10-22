@@ -1,3 +1,4 @@
+// const uuid = require('uuid');
 const fs = require('fs');
 const util = require('util');
 const readFromFile = util.promisify(fs.readFile);
@@ -16,4 +17,15 @@ const readAndAppend = (content, file) => {
     }
   });
 };
+
+// class Helpers {
+//   addNote(data) {
+//     const { title, text } = data;
+//     const newNote = { title, text, id: uuid };
+//     return this.getNotes()
+//     .then((notes => [...notes, newNote])
+//     .then(updatedNotes => writeToFile(updatedNotes))
+//     .then(() => newNote));
+//   }
+// }
 module.exports = { readFromFile, writeToFile, readAndAppend };

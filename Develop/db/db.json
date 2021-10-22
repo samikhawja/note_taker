@@ -1,6 +1,18 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title":"Node.js",
+        "text":"Rememeber to ask for clarification"
+    },
+    {
+        "title":"Express.js",
+        "text":"I understand express"
+    },
+    {
+        "title":"MySql",
+        "text":"I get this the most"
+    },
+    {
+        "title":"Javascript",
+        "text":"Oh boy... javascript"
     }
 ]
